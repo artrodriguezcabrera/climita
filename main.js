@@ -1,7 +1,6 @@
 
 const darkSkyKey = '776681cd1b856d7f09336e76c87ef4e6';
-// let latitude = 40.676022;
-// let longitude = -73.917931;
+
 let latitude = null;
 let longitude = null;
 let weatherData = null;
