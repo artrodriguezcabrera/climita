@@ -8,10 +8,25 @@
     --lightblue: #A0DDE6;
 }
 
+
 body {
-    text-align: center;
     background-color: var(--lightgreen);
     font-family: 'Source Sans Pro', sans-serif;
+    max-width: 500px;
+    margin: 20px;
+}
+
+#search-results {
+    list-style-type: none;
+    text-align: left;
+}
+
+#search-results li {
+    font-weight: bold;
+    font-size: 17px;
+    background-color: var(--lightblue);
+    margin: 5px;
+    padding: 5px;
 }
 
 
