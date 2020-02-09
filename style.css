@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa+One|Montserrat|Source+Sans+Pro&display=swap');
+
 
 :root {
     --lightgreen: #80C2AF;
@@ -13,7 +14,7 @@ body {
     background-color: var(--lightgreen);
     font-family: 'Source Sans Pro', sans-serif;
     color: var(--black);
-    max-width: 500px;
+    max-width: 600px;
     margin: 20px;
 }
 
@@ -41,6 +42,48 @@ body {
     color: var(--black);
     font-weight: bold;
 }
+
+
+.modern {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    background-color: #2A2D34;
+    padding: 20px;
+}
+
+.modern #modern-date {
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: grey;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modern #modern-city {
+    font-family: 'Changa One', cursive;
+    font-size: 17px;
+    margin: 5px 0 90px;
+}
+
+.modern h2 {
+    font-family: 'Changa One', cursive;
+    font-size: 50px;
+    margin: 5px;
+}
+
+.modern h3 {
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    margin: 5px;
+}
+
+.modern h4 {
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: grey;
+    margin: 5px;
+}
+
 
 .darksky-footnote {
     position: absolute;

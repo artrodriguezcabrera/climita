@@ -43,6 +43,8 @@ function getDarkSkyData(darkSkyKey, latitude, longitude) {
         return weatherData;
     }
 
+    latText.innerText = `Estas localizado en ${latitude.toFixed(2)}° latitud por `;
+    longText.innerText =`${longitude.toFixed(2)}° longitud.`;
     getMapBoxImage(latitude, longitude);
 }
 
