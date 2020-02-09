@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
+
+:root {
+    --lightgreen: #80C2AF;
+    --green: #5C946E;
+    --black: #2A2D34;
+    --blue: #30C5FF;
+    --lightblue: #A0DDE6;
+}
+
+body {
+    text-align: center;
+    background-color: var(--lightgreen);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.darksky-footnote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.darksky-footnote a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
